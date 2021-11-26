@@ -12,11 +12,11 @@ export function App() {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
 
   function handleOpenNewTransactionModal() {
-      setIsNewTransactionModalOpen(true);
+    setIsNewTransactionModalOpen(true);
   }
 
   function handleCloseNewTransactionModal() {
-      setIsNewTransactionModalOpen(false);
+    setIsNewTransactionModalOpen(false);
   }
 
   return (
